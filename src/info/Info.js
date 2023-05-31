@@ -38,7 +38,7 @@ export const info = {
     },
     {
       emoji: '🌎',
-      text: 'Based in the Ontario, Canada',
+      text: 'Based in Ontario, Canada',
     },
     {
       emoji: '⛺️',
