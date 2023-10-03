@@ -66,7 +66,22 @@ export const info = {
   ],
   bio: "Hello I'm Ryan! I have a background in tech sales and management, bringing a unique perspective to the table. Problem solving has always been my passion, and I'm excited to bring that passion to the world of software development.",
   skills: {
-    proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'express', 'nodejs', 'python', 'django', 'postgreSQL', 'mongoose', 'mongoDB'],
+    proficientWith: [
+      'javascript',
+      'react',
+      'git',
+      'github',
+      'bootstrap',
+      'html5',
+      'css3',
+      'express',
+      'nodejs',
+      'python',
+      'django',
+      'postgreSQL',
+      'mongoose',
+      'mongoDB',
+    ],
     exposedTo: ['ruby', 'bulma', 'materialize'],
   },
   hobbies: [
@@ -86,20 +101,19 @@ export const info = {
       label: 'Formula 1',
       emoji: '🏎️',
     },
-
   ],
   portfolio: [
     // This is where your portfolio projects will be detailed
     {
-      title: 'Project 1',
-      live: 'https://paytonpierce.dev', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-      source: 'https://github.com/paytonjewell', // this should be a link to the **repository** of the project, where the code is hosted.
+      title: 'Facial Recognition App',
+      live: 'https://facial-recognition-app-be4c84d39dbc.herokuapp.com/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+      source: 'https://github.com/RCarr94/facial-recognition', // this should be a link to the **repository** of the project, where the code is hosted.
       image: mock1,
     },
     {
-      title: 'Project 2',
-      live: 'https://paytonpierce.dev',
-      source: 'https://github.com/paytonjewell',
+      title: 'SlickChef',
+      live: 'https://slickchef.herokuapp.com/',
+      source: 'https://github.com/RCarr94/SlickChef',
       image: mock2,
     },
     {
