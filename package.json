@@ -1,8 +1,8 @@
 {
   "name": "portfolioTemplate",
   "version": "2.0.0",
+  // "homepage": "https://rcarr94.github.io/ryan-carr/",
   "private": true,
-  "homepage": "https://https://rcarr94.github.io/ryan-carr/",
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
@@ -26,6 +26,7 @@
     "typescript": "^4.7.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
