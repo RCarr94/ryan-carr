@@ -75,6 +75,7 @@ export const info = {
       'react',
       'git',
       'github',
+      'tailwindCSS',
       'bootstrap',
       'html5',
       'css3',

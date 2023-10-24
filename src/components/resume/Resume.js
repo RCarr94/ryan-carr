@@ -1,4 +1,4 @@
-import myResume from './RyanCarr-Resume.pdf';
+import myResume from './ryan-carr-resume-2023.pdf';
 import './Resume.css';
 export default function Resume() {
   return (
