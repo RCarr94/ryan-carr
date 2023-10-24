@@ -3,7 +3,7 @@ import mock1 from "../img/mock1.png"
 import mock2 from "../img/mock2.png"
 import mock3 from "../img/mock3.png"
 import mock4 from "../img/mock4.png"
-import mock5 from "../img/mock5.png"
+import { Link } from "react-router-dom"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -46,7 +46,11 @@ export const info = {
     },
     {
       emoji: '📧',
-      text: 'ryan.g.carr@hotmail.com',
+      text: <a href="mailto:ryan.g.carr@hotmail.com">ryan.g.carr@hotmail.com</a>,
+    },
+    {
+      emoji: '📂',
+      text: <Link to="/resume">Resume</Link>,
     },
   ],
   socials: [
@@ -105,23 +109,28 @@ export const info = {
   portfolio: [
     // This is where your portfolio projects will be detailed
     {
+      title: 'TeamTrailz',
+      live: 'https://team-trailz-e41981a5de26.herokuapp.com/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+      source: 'https://github.com/RCarr94/team-trailz', // this should be a link to the **repository** of the project, where the code is hosted.
+      image: mock1,
+    },
+    {
       title: 'Facial Recognition App',
       live: 'https://facial-recognition-app-be4c84d39dbc.herokuapp.com/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/RCarr94/facial-recognition', // this should be a link to the **repository** of the project, where the code is hosted.
-      image: mock1,
+      image: mock2,
     },
     {
       title: 'SlickChef',
       live: 'https://slickchef.herokuapp.com/',
       source: 'https://github.com/RCarr94/SlickChef',
-      image: mock2,
-    },
-    {
-      title: 'Project 3',
-      live: 'https://paytonpierce.dev',
-      source: 'https://github.com/paytonjewell',
       image: mock3,
     },
-
+    {
+      title: 'Giphy Search Bar',
+      live: 'https://giphy-search-app-56ce62bf1f9d.herokuapp.com/',
+      source: 'https://github.com/RCarr94/giphy-search-bar',
+      image: mock4,
+    },
   ],
 };
