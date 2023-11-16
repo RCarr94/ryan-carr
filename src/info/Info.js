@@ -72,7 +72,9 @@ export const info = {
   skills: {
     proficientWith: [
       'javascript',
+      'typescript',
       'react',
+      'nextjs',
       'git',
       'github',
       'tailwindCSS',
@@ -86,6 +88,7 @@ export const info = {
       'postgreSQL',
       'mongoose',
       'mongoDB',
+      'prisma',
     ],
     exposedTo: ['ruby', 'bulma', 'materialize'],
   },
